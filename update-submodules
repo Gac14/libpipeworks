@@ -2,6 +2,7 @@
 
 for dir in SDL libpng flac zlib
 do
+git checkout master
 pushd $dir
 git pull --rebase upstream master
 git push
