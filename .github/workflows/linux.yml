@@ -41,3 +41,4 @@ jobs:
         update-submodules: true
         parallel: 8
         build-dir: ${{runner.workspace}}/build-gcc
+
